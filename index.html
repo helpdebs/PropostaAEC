@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
 <title>Diagnóstico digital do GS Studio | proposta da Débora</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,6 +85,19 @@ section{padding:3.5rem 0}
 }
 
 
+
+/* QUEM */
+.quem{padding-top:0}
+.quem-box{display:grid;grid-template-columns:1.1fr .9fr;gap:1.5rem 2.5rem;align-items:start;background:var(--paper);border:1px solid var(--line);border-left:6px solid var(--neon);border-radius:0 8px 8px 0;padding:1.5rem}
+.quem-box h2{margin-bottom:.75rem}
+.quem-box p{margin:0}
+.quem-list{list-style:none;margin:0;padding:0}
+.quem-list li{padding:.7rem 0;border-top:1px solid var(--line)}
+.quem-list li:first-child{border-top:none;padding-top:0}
+.quem-list b{display:block;font-variation-settings:"wdth" 75;font-size:1.2rem;color:var(--accent);line-height:1.2}
+.quem-list span{color:var(--muted);font-size:.95rem}
+.quem-foot{color:var(--muted);margin-top:.9rem;font-size:.95rem}
+@media (max-width:720px){.quem-box{grid-template-columns:1fr;padding:1.25rem}}
 .recebe{display:grid;grid-template-columns:1.1fr .9fr;gap:2.5rem;align-items:start}
 .recebe ul{list-style:none;padding:0;margin:0}
 .recebe li{padding:.8rem 0 .8rem 1.4rem;border-top:1px solid var(--line);position:relative}
@@ -146,6 +160,23 @@ details .a p:last-child{margin-bottom:0}
       <div class="area"><h3>Computadores e internet</h3><p>Equipamentos da recepção, Wi-Fi, backup e antivírus.</p></div>
       <div class="area"><h3>Sistemas e aplicativos</h3><p>Programa de gestão, app, catraca ou qualquer outra ferramenta que vocês usem.</p></div>
     </div>
+  </div>
+</section>
+
+<section class="quem">
+  <div class="wrap">
+    <div class="quem-box">
+      <div>
+        <h2>Quem está propondo</h2>
+        <p>Além do curso, estudo programação por conta própria. Desenvolvi do zero o portal que uso com minhas alunas de inglês, e é por ele que eu organizo meu trabalho no dia a dia.</p>
+      </div>
+      <ul class="quem-list">
+        <li><b>Agenda</b><span>Marcação e organização das aulas</span></li>
+        <li><b>Materiais</b><span>Material disponível para cada aluna</span></li>
+        <li><b>Financeiro</b><span>Controle de pagamentos e planos</span></li>
+      </ul>
+    </div>
+    <p class="quem-foot">Se quiser, te mostro o portal rapidinho no treino.</p>
   </div>
 </section>
 
@@ -234,12 +265,12 @@ details .a p:last-child{margin-bottom:0}
         <li>Os pontos fortes que já funcionam bem.</li>
         <li>Os pontos que dá para melhorar, explicados sem termos técnicos.</li>
         <li>Um plano de ação com sugestões prioritárias.</li>
-        <li>Uma ideia de sistema para resolver um problema real da rotina.</li>
+        <li>Uma ideia de solução para um problema real da rotina, pensada para complementar as ferramentas que vocês já usam.</li>
       </ul>
     </div>
     <aside class="later">
       <h3>E depois?</h3>
-      <p>O curso continua nos próximos semestres. A ideia é eu desenvolver um protótipo de sistema pensado a partir do que eu observar aqui, como a agenda de treinos ou o controle de renovações. Como a gente se vê todo dia, dá para tirar uma dúvida ou mostrar o andamento no próprio treino, sempre sem compromisso.</p>
+      <p>O curso continua nos próximos semestres. A ideia é eu desenvolver um protótipo pensado a partir do que eu observar aqui, como algo que facilite a agenda de treinos ou as renovações, sem substituir o sistema que vocês já usam. Como a gente se vê todo dia, dá para tirar uma dúvida ou mostrar o andamento no próprio treino, sempre sem compromisso.</p>
     </aside>
   </div>
 </section>
